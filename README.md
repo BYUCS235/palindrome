@@ -4,7 +4,7 @@ Stacks are great at matching up pairs of elements.  A palindrome is a string tha
 FFor this learning activity we will practice using stacks by determining whether a string is a palindrome. The code you generate for this exercise will be very similar to the code you will need in Lab 2 to determine if parentheses are matched, so use this as an opportunity to practice these concepts.
 
 ## First design the application
-You could look at the first character and compare it to the last character and then move in on each end comparing characters.  This approach could work, but might be complex when you get to the middle character.
+How can we check whether a string is a palindrome? You could look at the first character and compare it to the last character and then move in on each end comparing characters.  This approach could work, but might be complex when you get to the middle character.
 
 Lets try pushing the whole string onto the stack and then popping it off one character at a time and comparing it to the original.  First start with a program that includes the stack container.
 ```c++
